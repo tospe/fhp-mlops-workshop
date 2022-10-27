@@ -108,12 +108,6 @@ repos:
             exclude: ^tests/
             args: [--ignore-missing-imports]
             additional_dependencies: [types-all]
-    - repo: https://github.com/asottile/yesqa
-      rev: v1.4.0
-      hooks:
-          - id: yesqa
-            name: yesqa - remove unnecessary `# noqa` comments
-            description: Automatically remove unnecessary `# noqa` comments
     - repo: https://github.com/asottile/add-trailing-comma
       rev: v2.3.0
       hooks:
