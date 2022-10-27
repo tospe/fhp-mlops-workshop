@@ -1,0 +1,19 @@
+site_name: mlops_training
+site_description: Contents for mlops workshop
+site_author: mlops cluster
+
+#repo_url:
+
+theme:
+    name: 'material'
+    locale: en
+    font: false
+
+nav:
+    - Home: index.md
+
+# WIP
+#markdown_extensions:
+#  - mkautodoc
+#plugins:
+#  - mkdocs-jupyter
