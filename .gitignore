@@ -209,4 +209,6 @@ references/
 # Instructions
 src/README.md
 
+.metaflow
+*.parquet
 # EOF
