@@ -1,6 +1,5 @@
-# Documentation
-pydocstyle
+mkautodoc
 mkdocs
 mkdocs-material
-mkautodoc
-
+# Documentation
+pydocstyle

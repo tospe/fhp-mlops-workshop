@@ -44,7 +44,7 @@ async def predict(
 async def predict_images(
     image_list: List[UploadFile] = File(...),
 ):
-    """Get annotations from image file"""
+    """Get annotations from image file."""
     for image_file in image_list:
         image_content = await image_file.read()
         image_content.process()

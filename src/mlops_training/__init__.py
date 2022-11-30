@@ -1,8 +1,6 @@
-# -*- coding: utf-8 -*-
-
 """Top-level package for mlops_training.
 
-    Contents for mlops workshop
+Contents for mlops workshop
 """
 from version import __version__
 

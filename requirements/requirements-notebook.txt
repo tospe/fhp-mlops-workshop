@@ -1,4 +1,4 @@
-nbconvert
 ipykernel
-nbformat>=5.1.2
 matplotlib
+nbconvert
+nbformat>=5.1.2

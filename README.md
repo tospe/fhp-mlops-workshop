@@ -1,6 +1,6 @@
 # mlops
 
-[![Python](https://img.shields.io/badge/python-3.7+-informational.svg)]()
+[![Python](https://img.shields.io/badge/python-3.7+-informational.svg)](<>)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Checked with mypy](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org)
 [![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=black)](https://pycqa.github.io/isort)
@@ -13,7 +13,7 @@
 [![pytest](https://img.shields.io/badge/pytest-enabled-brightgreen)](https://github.com/pytest-dev/pytest)
 [![conventional-commits](https://img.shields.io/badge/conventional%20commits-1.0.0-yellow)](https://github.com/commitizen-tools/commitizen)
 
-Contents for mlops workshop
+Contents for mlops workshop.
 
 ## Prerequisites
 
@@ -29,65 +29,40 @@ You will need:
 
 Clone this repository (requires git ssh keys)
 
-    git clone --recursive ssh://git@git.fraunhofer.pt/mlops/mlops_training.git
-    cd mlops_training && git init
+```
+git clone --recursive ssh://git@git.fraunhofer.pt/mlops/mlops_training.git
+cd mlops_training && git init
+```
 
 Install dependencies
 
-    conda create -y -n mlops_training python=3.8
-    conda activate mlops_training
+```
+conda create -y -n mlops_training python=3.8
+conda activate mlops_training
+```
 
 or if environment already exists
 
-    conda env create -f environment.yml
-    conda activate mlops_training
+```
+conda env create -f environment.yml
+conda activate mlops_training
+```
 
 And then setup all virtualenv using make file recipe
 
-    (mlops_training) $ make setup-all
+```
+(mlops_training) $ make setup-all
+```
 
 Use pre-commit hooks to standardize code formatting of your project and save mental energy.
 Simply install pre-commit package and pre-commit hooks with:
 
-    make install-pre-commit
+```
+make install-pre-commit
+```
 
 After that your code will be automatically reformatted on every new commit.
 
 ## Documentation
 
 Full documentation is available here: [`docs/`](docs).
-
-## Dev
-
-See the [Developer](docs/DEVELOPER.md) guidelines for more information.
-
-## Contributing
-
-Contributions of any kind are welcome. Please read [CONTRIBUTING.md](docs/CONTRIBUTING.md]) for details and
-the process for submitting pull requests to us.
-
-## Changelog
-
-See the [Changelog](CHANGELOG.md) for more information.
-
-## Security
-
-Thank you for improving the security of the project, please see the [Security Policy](docs/SECURITY.md)
-for more information.
-
-## License
-
-This project is licensed under the terms of the `No license` license.
-See [LICENSE](LICENSE) for more details.
-
-## Citation
-
-If you publish work that uses mlops, please cite mlops as follows:
-
-```bibtex
-@misc{mlops mlops_training,
-  author = {Fraunhofer AICOS},
-  title = {Contents for mlops workshop},
-  year = {2022},
-}
-```

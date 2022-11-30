@@ -1,13 +1,10 @@
-Credits
-=======
+# Credits
 
-Project Lead
-----------------
+## Project Lead
 
-* mlops cluster <mlops@cluster>
+- mlops cluster <mlops@cluster>
 
-Project Contributors
-------------
+## Project Contributors
 
 ```shell
 git shortlog -nse

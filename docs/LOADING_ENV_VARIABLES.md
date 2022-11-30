@@ -19,13 +19,13 @@ instructions](#installing-direnv), and [make sure you have a `.secrets` file to 
 secrets and credentials](#storing-secrets-and-credentials). Then:
 
 1. Open your terminal;
-2. Install `direnv`. See instructions below.
-3. Navigate to the project folder; and
+1. Install `direnv`. See instructions below.
+1. Navigate to the project folder; and
    - You should see the following message:
      ```shell
      direnv: error .envrc is blocked. Run `direnv allow` to approve its content.
      ```
-4. Allow `direnv`.
+1. Allow `direnv`.
    ```shell
    direnv allow
    ```
@@ -35,17 +35,17 @@ You only need to do this once, and again each time `.envrc` and `.secrets` are m
 ### Installing `direnv`
 
 1. Open your terminal;
-2. Install [`direnv`](https://direnv.net/docs/installation.html);
-3. Add the shell hooks to your `.bash_profile`;
+1. Install [`direnv`](https://direnv.net/docs/installation.html);
+1. Add the shell hooks to your `.bash_profile`;
    ```shell
    echo 'eval "$(direnv hook bash)"' >> ~/.bash_profile
    ```
-4. Check that the shell hooks have been added correctly; and
+1. Check that the shell hooks have been added correctly; and
    ```shell
    cat ~/.bash_profile
    ```
    - This should display `eval "$(direnv hook bash)"`
-5. Restart your terminal.
+1. Restart your terminal.
 
 ## Storing secrets and credentials
 

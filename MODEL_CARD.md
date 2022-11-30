@@ -15,15 +15,13 @@ This model was developed by researchers at **Fraunhofer AICOS** to help us under
 
 ### Model type
 
-
-
 ### Model version
 
 XXXX parameters. We have also released XXXX million parameter models.
 
 ### Paper or other resource for more information
 
-[Blog post]() and [paper]()
+[Blog post](<>) and [paper](<>)
 
 ### Where to send questions or comments about the model
 
@@ -63,8 +61,6 @@ This model was trained on (and evaluated against) YYYY dataset, a dataset consis
 To get a sense of the data that went into XXXXX, we’ve (...).
 
 ## Ethical Considerations
-
-
 
 ### Caveats and Recommendations
 

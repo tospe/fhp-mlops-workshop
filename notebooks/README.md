@@ -22,7 +22,7 @@ It may be necessary or useful to keep certain output cells of a Jupyter notebook
 some set of data. To do this, [according to the documentation for the `nbstripout` package][nbstripout], either:
 
 1. add a `keep_output` tag to the desired cell; or
-2. add `"keep_output": true` to the desired cell's metadata.
+1. add `"keep_output": true` to the desired cell's metadata.
 
 You can access cell tags or metadata in Jupyter by enabling the "Tags" or
 "Edit Metadata" toolbar (View > Cell Toolbar > Tags; View > Cell Toolbar >
@@ -72,7 +72,7 @@ The advantages of this are:
 - You will save disk-space
 - Faster install
 - Colleagues using other editors don't have to install heavy dependencies they don't use (you wouldn't be happy if someone sent you
-code that depended on VScode/Pycharm/Spyder)
+  code that depended on VScode/Pycharm/Spyder)
 
 Note: `ipykernel` is also listed in `requirements/requirements_notebook.txt` so you do not need to add it.
 
